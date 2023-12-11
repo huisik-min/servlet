@@ -13,6 +13,7 @@
 </head>
 <body>
 <!-- 상대경로 사용, [현재 URL이 속한 계층 경로 + /save] -->
+<!-- 보통은 절대 경로 사용 -->
 <form action="save" method="post">
     username:   <input type="text" name="username" />
     age:        <input type="text" name="age" />
